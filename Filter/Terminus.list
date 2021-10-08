@@ -1,2 +1,2 @@
 # Terminus Emby Filter Rules
-DOMAIN-SUFFIX,emby.wtf
+HOST-SUFFIX,emby.wtf,proxy
