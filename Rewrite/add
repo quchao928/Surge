@@ -1,4 +1,4 @@
-hostname = *.iqiyipic.com, *.iqiyi.com, act.vip.iqiyi.com, *.tieba.baidu.com, *.baidu.com, -imerres.baidu.com, issuecdn.baidupcs.com, mobads.baidu.comao.*,*.byteimg.com,*.byteimg.com.*,*.pstatp.com,*.pstatp.com.*,gurd.snssdk.com,gurd.snssdk.com.*,i.snssdk.com,i.snssdk.com.*,i-lq.snssdk.com,i-lq.snssdk.com.*
+hostname = *.iqiyipic.com, *.iqiyi.com, act.vip.iqiyi.com, *.tieba.baidu.com, *.baidu.com, -imerres.baidu.com, issuecdn.baidupcs.com, mobads.baidu.comao, mbd\.baidu.com
 
 #百度地图开屏广告
 #hostname=*.bdstatic.com
@@ -33,7 +33,7 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip url reject
 ^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch url reject
 
 #百度贴吧(TributePaulWalker搬运)
-#hostname=*.tieba.baidu.com
+
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
@@ -47,7 +47,7 @@ http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) url reject
 ^http:\/\/ems\.youku\.com\/imp\? url reject
 ^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ url reject
 
-#hostname=mbd\.baidu.com
+
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
 
 
