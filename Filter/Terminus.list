@@ -1,10 +1,2 @@
 #Terminus Filter Rules
-HOST-SUFFIX,pub1.emby.wtf
-HOST-SUFFIX,pub1ha2.emby.wtf
-HOST-SUFFIX,pub1back.emby.wtf
-HOST-SUFFIX,pub2.emby.wtf
-HOST-SUFFIX,pub2ha2.emby.wtf
-HOST-SUFFIX,pub2back.emby.wtf
-HOST-SUFFIX,pub3.emby.wtf
-HOST-SUFFIX,pub3ha2.emby.wtf
-HOST-SUFFIX,pub3back.emby.wtf
+HOST-SUFFIX,emby.wtf
