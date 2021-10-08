@@ -1,2 +1,2 @@
-#Terminus Filter Rules
-HOST-SUFFIX,emby.wtf
+#Terminus Emby Filter Rules
+HOST-SUFFIX , emby.wtf
