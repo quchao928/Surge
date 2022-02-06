@@ -1,8 +1,3 @@
 # Terminus Emby Filter Rules
 HOST-SUFFIX,emby.wtf,Emby
 
-# OneDrive OneDrive Filter Rules
-DOMAIN-SUFFIX,1drv.com,Emby
-DOMAIN-SUFFIX,onedrive.com,Emby
-DOMAIN-SUFFIX,storage.live.com,Emby
-DOMAIN,oneclient.sfx.ms,Emby
