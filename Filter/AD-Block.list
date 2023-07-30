@@ -1,2 +1,16 @@
-# 高德地图
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
+# 高德地图去广告
+host, amdc.m.taobao.com, reject
+
+# Safari 防跳转
+host, app-site-association.cdn-apple.com, reject
+
+# 美团去广告
+host, portal-portm.meituan.com, reject
+
+# 绕过企业证书过期
+host, ocsp.apple.com, reject
+
+# 屏蔽iOS系统更新
+host, gdmf.apple.com, reject
+host, mesu.apple.com, reject
+host, updates-http.cdn-apple.com, reject
