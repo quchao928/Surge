@@ -1,0 +1,7 @@
+# > 全民K歌
+
+[Script]
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}x\d{4} url reject-200
+
+[MITM]
+hostname = y.gtimg.cn
