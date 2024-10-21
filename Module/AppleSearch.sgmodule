@@ -1,0 +1,37 @@
+#!name=AppleSearch
+#!desc=iPhone主页面下拉输入关键词快捷跳转APP内搜索
+
+[URL Rewrite]
+# 默认百度搜索，该条规则置于最优先级
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=(https?)(%3A|:)(\/\/|%2F%2F)(.*) $3://$6 307
+# g:谷歌
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=g(\+|%20)([^&]+).* https://www.google.com/search?q=$4 302
+# wk:维基百科
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=wk(\+|%20)([^&]+).* https://zh.wikipedia.org/wiki/$4 302
+# wb: 微博
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=wb(\+|%20)([^&]+).* https://s.weibo.com/weibo/$4 302
+# zh:知乎
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=zh(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=zh,$4 302
+# db:豆瓣
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=db(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=db,$4 302
+# ve:V2EX
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=ve(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=ve,$4 302
+# yt:YouTube
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=yt(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=yt,$4 302
+# bl:哔哩哔哩
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=bl(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=bl,$4 302
+# tb:淘宝
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=tb(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=tb,$4 302
+# jd:京东
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=jd(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=jd,$4 302
+# pdd:拼多多
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=pdd(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=pdd,$4 302
+# mt:美团
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=mt(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=mt,$4 302
+# xhs:小红书
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=xhs(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=xhs,$4 302
+# xy:闲鱼
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=xy(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=xy,$4 302
+
+[MITM]
+hostname = %APPEND% *.baidu.com
