@@ -1,11 +1,5 @@
-#!name=📺 BiliBili: ⚙ Enhanced
-#!desc=哔哩哔哩：增强模式（中国站功能增强及UI自定义）
-#!openUrl=http://boxjs.com/#/app/BiliBili.Enhanced
-#!author=VirgilClyne
-#!homepage=https://enhanced.biliuniverse.io
-#!manual=https://manual.biliuniverse.io
-#!icon=https://github.com/BiliUniverse/Enhanced/raw/main/src/assets/icon_rounded.png
-#!category=📺 BiliUniverse
+#!name=哔哩哔哩
+#!desc=哔哩哔哩页面优化去广告
 
 [URL Rewrite]
 # 去除搜索中的默认关键词
