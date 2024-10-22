@@ -1,5 +1,5 @@
 #!name=AppleSearch
-#!desc=iPhone主页面下拉输入关键词快捷跳转APP内搜索
+#!desc=搜索框输入关键词快捷跳转APP内搜索
 
 [URL Rewrite]
 # 默认百度搜索，该条规则置于最优先级
