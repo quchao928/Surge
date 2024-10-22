@@ -1,4 +1,4 @@
-#!name=GaoDeMap
+#!name=高德地图
 #!desc=高德地图页面优化去广告
 
 [URL Rewrite]
