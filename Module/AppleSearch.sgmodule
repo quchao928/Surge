@@ -35,5 +35,6 @@
 # qc:企查查
 ^https:\/\/(www|m)\.baidu.com.*?(wd|word)=qc(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=qc,$4 302
 
+
 [MITM]
 hostname = %APPEND% *.baidu.com
