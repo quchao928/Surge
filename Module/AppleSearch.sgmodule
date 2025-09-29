@@ -33,7 +33,14 @@
 # xy:闲鱼
 ^https:\/\/(www|m)\.baidu.com.*?(wd|word)=xy(\+|%20)([^&]+).* shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=xy,$4 302
 
-
+# hk  (切换至香港区)
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
+# us  (切换至美国区)
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+# tr  (切换至土耳其区)
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
+# in  (切换至印度区)
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=in&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
 [MITM]
 hostname = %APPEND% *.baidu.com
