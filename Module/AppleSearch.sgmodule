@@ -41,7 +41,7 @@
 # tr  (Appstore切换至土耳其区)
 ^https:\/\/(www|m)\.baidu.com.*?(wd|word)=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 # in  (Appstore切换至印度区)
-^https:\/\/(www|m)\.baidu.com.*?(wd|word)=ind&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
+^https:\/\/(www|m)\.baidu.com.*?(wd|word)=in&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143467&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
 [MITM]
 hostname = %APPEND% *.baidu.com
