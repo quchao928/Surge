@@ -2,6 +2,7 @@
 DOMAIN,imap.gmail.com
 
 # Plex
+DOMAIN,v4.plex.tv
 DOMAIN-SUFFIX,plex.com
 DOMAIN-SUFFIX,plex.services
 DOMAIN-SUFFIX,plex.tv
