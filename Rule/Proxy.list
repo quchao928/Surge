@@ -30,11 +30,5 @@ DOMAIN-SUFFIX,seedhub.pro
 # Wallpapers
 DOMAIN-SUFFIX,ispazio.net
 
-# Wallpapers
+# 墨鱼
 DOMAIN-SUFFIX,ddgksf2013.top
-
-# ApplePush
-DOMAIN-SUFFIX,http://push.apple.com
-DOMAIN-SUFFIX,http://gateway.push.apple.com
-DOMAIN-SUFFIX,http://api.push.apple.com
-DOMAIN-SUFFIX,http://sandbox.push.apple.com
