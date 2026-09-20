@@ -52,4 +52,8 @@ DOMAIN-SUFFIX,opensubtitles.com
 # RE0
 DOMAIN-SUFFIX,re0.me
 
+# 终点站
+DOMAIN-SUFFIX,emby.wtf
 
+# SNTP
+DOMAIN-SUFFIX,cn2gias.uk
