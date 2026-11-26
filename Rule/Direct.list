@@ -9,5 +9,8 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plexapp.com
 DOMAIN-SUFFIX,plex.direct
 
-# SNTP订阅
+# SNTP 订阅
 DOMAIN-SUFFIX,sntp.me
+
+# SNTP Std
+DOMAIN,std.cn2gias.uk
