@@ -1,4 +1,4 @@
-#!name=AppleSearch
+#!name=Apple Search
 #!desc=搜索框输入关键词快捷跳转APP内搜索
 
 [URL Rewrite]
